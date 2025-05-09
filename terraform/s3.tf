@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "tf_s3" {
-  bucket = "nodejs_s3_bucket"
+resource "aws_s3_bucket" "tf-s3" {
+  bucket = "nodejs-s3-bucket-badr2001"
 
   tags = {
     Name        = "nodejs_bucket"
